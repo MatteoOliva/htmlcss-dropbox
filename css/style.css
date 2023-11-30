@@ -5,7 +5,7 @@
 }
 
 header {
-  height: 70px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -58,4 +58,48 @@ header {
   color: white;
   text-align: center;
   line-height: 50px;
+}
+
+.main-buisiness {
+  margin-top: 200px;
+  height: 1300px;
+  width: 100%;
+}
+.buisiness {
+  margin: 0 auto;
+  width: 50%;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.fattura-button {
+  margin-top: 40px;
+}
+.f-button {
+  margin-left: 40px;
+}
+.offerta1 {
+  margin-top: 40px;
+  width: 29%;
+  height: 900px;
+  border: 2px solid black;
+  display: inline-block;
+}
+.offerta2 {
+  margin-top: 40px;
+  width: 29%;
+  height: 900px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-left: 50px;
+}
+.offerta3 {
+  margin-top: 40px;
+  width: 29%;
+  height: 900px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-left: 50px;
 }
