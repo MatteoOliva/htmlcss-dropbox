@@ -62,8 +62,6 @@ header {
 
 .main-buisiness {
   margin-top: 200px;
-  height: 1300px;
-  width: 100%;
 }
 .buisiness {
   margin: 0 auto;
@@ -93,7 +91,6 @@ h2 {
   height: 900px;
   border: 2px solid black;
   display: inline-block;
-  margin-left: 50px;
 }
 .offerta3 {
   margin-top: 40px;
