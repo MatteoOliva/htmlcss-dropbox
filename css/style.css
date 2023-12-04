@@ -232,7 +232,7 @@ li {
   margin-top: 150px;
 }
 .esegui-operazioni h2 {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .operazione1 {
@@ -246,12 +246,14 @@ li {
   height: 500px;
   margin-top: 70px;
   display: inline-block;
+  margin-left: 20px;
 }
 .operazione3 {
   width: 300px;
   height: 500px;
   margin-top: 70px;
   display: inline-block;
+  margin-left: 20px;
 }
 .operazione4 {
   width: 300px;
@@ -264,10 +266,27 @@ li {
   height: 500px;
   margin-top: -80px;
   display: inline-block;
+  margin-left: 20px;
 }
 .operazione6 {
   width: 300px;
   height: 500px;
   margin-top: -80px;
   display: inline-block;
+  margin-left: 20px;
+}
+
+.clienti {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.clienti h2 {
+  font-size: 40px;
+}
+.clienti p {
+  margin-top: 50px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: blue;
 }
