@@ -206,3 +206,23 @@ li {
 .team-left h3 {
   font-size: 30px;
 }
+
+.entra-contatto {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.contatto-img {
+  width: 60%;
+}
+.contatto-testo {
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.contatto-testo span {
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
