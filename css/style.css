@@ -226,3 +226,48 @@ li {
   border: 1px solid black;
   padding: 10px;
 }
+.esegui-operazioni {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.esegui-operazioni h2 {
+  font-size: 50px;
+}
+
+.operazione1 {
+  width: 300px;
+  height: 500px;
+  margin-top: 70px;
+  display: inline-block;
+}
+.operazione2 {
+  width: 300px;
+  height: 500px;
+  margin-top: 70px;
+  display: inline-block;
+}
+.operazione3 {
+  width: 300px;
+  height: 500px;
+  margin-top: 70px;
+  display: inline-block;
+}
+.operazione4 {
+  width: 300px;
+  height: 500px;
+  margin-top: -80px;
+  display: inline-block;
+}
+.operazione5 {
+  width: 300px;
+  height: 500px;
+  margin-top: -80px;
+  display: inline-block;
+}
+.operazione6 {
+  width: 300px;
+  height: 500px;
+  margin-top: -80px;
+  display: inline-block;
+}
