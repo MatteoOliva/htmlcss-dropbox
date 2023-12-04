@@ -290,3 +290,112 @@ li {
   text-decoration: underline;
   color: blue;
 }
+.client-world {
+  width: 100%;
+  height: 600px;
+  background-color: red;
+  display: flex;
+  margin-top: 175px;
+}
+.client-world .clients {
+  width: calc(100% / 3);
+  background-color: blue;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.client-world .clients2 {
+  width: calc(100% / 3);
+  background-color: blue;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.client-world .clients div:nth-of-type(1) {
+  width: calc(100% / 2);
+  height: 50%;
+  background-color: #a2d39b;
+}
+.client-world .clients div:nth-of-type(2) {
+  width: calc(100% / 2);
+  height: 50%;
+  background-color: #61082b;
+}
+.client-world .clients div:nth-of-type(3) {
+  width: calc(100% / 2);
+  height: 50%;
+  background-color: #0093ce;
+}
+.client-world .clients div:nth-of-type(4) {
+  width: calc(100% / 2);
+  height: 50%;
+  background-color: #ff1c1c;
+}
+.client-world .clients2 div:nth-of-type(1) {
+  width: calc(100% / 2);
+  height: 50%;
+  background-color: #d5001f;
+}
+.client-world .clients2 div:nth-of-type(2) {
+  width: calc(100% / 2);
+  height: 50%;
+  background-color: #b4d0e7;
+}
+.client-world .clients2 div:nth-of-type(3) {
+  width: calc(100% / 2);
+  height: 50%;
+  background-color: #0d2481;
+}
+.client-world .clients2 div:nth-of-type(4) {
+  width: calc(100% / 2);
+  height: 50%;
+  background-color: #ffd830;
+}
+.feedback-middle {
+  width: calc(100% / 3);
+  height: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+.feedback-upper {
+  width: 100%;
+  height: 30%;
+}
+.feedback-upper img {
+  margin: 56px 0 0 60px;
+  width: 40%;
+}
+.feedback-bottom {
+  width: 75%;
+  margin: 50px auto;
+}
+.feedback-bottom p {
+  font-size: 20px;
+}
+.feedback-bottom p:nth-of-type(2) {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.clients div img {
+  width: 50%;
+  filter: invert(1);
+}
+.clients2 div img {
+  width: 50%;
+  filter: invert(1);
+}
+
+.clients div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients2 div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
