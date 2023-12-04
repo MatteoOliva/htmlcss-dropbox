@@ -60,15 +60,16 @@ header {
   line-height: 50px;
 }
 
-.main-buisiness {
+.main-business {
   margin-top: 200px;
 }
-.buisiness {
+
+.business {
   margin: 0 auto;
   width: 50%;
 }
 
-h2 {
+.business-titolo h2 {
   font-size: 50px;
 }
 
@@ -78,25 +79,130 @@ h2 {
 .f-button {
   margin-left: 40px;
 }
-.offerta1 {
+.offerta {
   margin-top: 40px;
   width: 29%;
   height: 900px;
-  border: 2px solid black;
+  border: 1px solid black;
   display: inline-block;
 }
 .offerta2 {
   margin-top: 40px;
   width: 29%;
   height: 900px;
-  border: 2px solid black;
+  border: 1px solid black;
   display: inline-block;
+  margin-left: 50px;
 }
 .offerta3 {
   margin-top: 40px;
   width: 29%;
   height: 900px;
-  border: 2px solid black;
+  border: 1px solid black;
   display: inline-block;
   margin-left: 50px;
+}
+
+.intestazione-offerta {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 40px;
+}
+
+.intestazione-style {
+  text-align: center;
+  line-height: 35px;
+}
+
+.testo-offerta {
+  width: 100%;
+
+  margin-left: 20px;
+}
+
+.testo-offerta ul {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.testo-offerta h3 {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.testo-offerta h4 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.testo-offerta p {
+  margin-top: 10px;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.testo-offerta button {
+  background-color: #0061ff;
+  color: white;
+  margin-top: 45px;
+  margin-left: 10px;
+  border: none;
+  padding: 15px 35px;
+}
+#button-offerta {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.button-offerta {
+  color: blue;
+  text-decoration: underline;
+}
+.offerta-secondaparte {
+  width: 100%;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.offerta-secondaparte li {
+  margin-top: 20px;
+}
+.offerta-secondaparte ul {
+  margin-left: 20px;
+}
+.business-contatta {
+  height: 250px;
+  width: 936px;
+
+  margin-top: 45px;
+  border: 1px solid black;
+}
+
+.team-container {
+  width: 100%;
+  display: flex;
+}
+.team-left {
+  width: 70%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.team-rigt {
+  width: 30%;
+}
+.team-right button {
+  background-color: #0061ff;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  margin-top: 30px;
+}
+.team-left h4 {
+  margin-top: 15px;
+}
+.team-left p {
+  margin-top: 50px;
+}
+.team-left h3 {
+  font-size: 30px;
 }
